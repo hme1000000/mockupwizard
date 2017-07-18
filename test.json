@@ -1,0 +1,39 @@
+[
+  {
+    "title":"Users",
+    "section_per_row":1,
+    "sections":[
+      {
+        "title":"Users",
+        "type":"table",
+        "random":100,
+        "columns":[{
+          "Username":"username",
+          "Full Name":"name",
+          "Email": "email",
+          "Birth Date":"date",
+          "Age": "number_8_25",
+          "Grade": ["K1","K2","K3"],
+          "Score":"number"
+          }]
+      },
+      {
+        "title":"Create User",
+        "type":"form",
+        "element_per_row":3,
+        "elements":[{
+          "Username":"input",
+          "password":"password",
+          "Email":"input",
+          "Birth Date":"date",
+          "Age":"input",
+          "Grade":[{
+            "type":"select",
+            "data":["K1","K2","K3"],
+            }],
+          "Comment":"text"
+          }]
+      }
+    ]
+  }
+]
